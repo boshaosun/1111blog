@@ -34,7 +34,7 @@ a{
 }
 
 .logo{
-	padding-top: 1px;
+
 }
 
 .topNavBar > nav > ul > li > a{
@@ -53,14 +53,14 @@ a{
 }
 
 .rs{
-	font-size: 24;
+	font-size: 24px;
 	font-family: "Arial black";
 	margin-right:4px;
 	color:#E6686A;
 }
 
 .card{
-	font-size: 24;
+	font-size: 24px;
 	font-family: "Arial black";
 	color:#9A9DA2;
 }
