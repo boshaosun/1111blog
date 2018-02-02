@@ -1,0 +1,50 @@
+body{
+    background-color: grey;
+}
+#yinyang{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background: linear-gradient(to bottom, #fcf7f7 0%,#f9f9f9 50%,#070404 51%,#070404 100%);
+    position: relative;
+    margin: 100px auto;
+}
+
+#yinyang > .one{  
+    width: 100px;
+    height:100px;
+    background:black;
+    position: absolute;
+    border-radius:50%;
+    margin-top:50px;
+}
+
+#yinyang > .two{
+    width: 100px;
+    height:100px;
+    background:#F8F8F8;
+    position: absolute;
+    border-radius:50%;
+    margin-top:50px;
+    margin-left:100px;
+}
+
+#yinyang > .one>.circle{  
+    width: 20px;
+    height:20px;
+    background:white;
+    position: absolute;
+    border-radius:50%;
+    left:40px;
+    top:40px;
+}
+
+#yinyang > .two>.circle1{  
+    width: 20px;
+    height:20px;
+    background:black;
+    position: absolute;
+    border-radius:50%;
+    left:40px;
+    top:40px;
+}
