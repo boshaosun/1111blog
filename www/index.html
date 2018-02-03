@@ -134,19 +134,35 @@
             	</ol>
             </section>
 
-            <section>
+            <section class="portfo">
             	<h2>作品集</h2>
             	<nav>
-            		<ol>
-            			<li>所有</li>
-            			<li>框架</li>
-            			<li>原声js</li>
-            		</ol>
-            	</nav>
-            	<div class="jobs">
-            		<div class="big"></div>
-            		<div class="small"></div>
-            		<div class="small"></div>
+            		<ol class="clearfix">
+            			<li id="allall">所有</li>
+            			<li id="frame">框架</li>
+            			<li id="jsjs">原生js</li>
+                    </ol>
+                    <div id="sunshine" class="bar state-1">
+                        <div class="bar-inner"></div>
+                    </div>
+                </nav>
+                <script>
+                    allall.onclick = function(){
+                        sunshine.className = 'bar state-1'
+                    }
+
+                    frame.onclick = function(){
+                        sunshine.className = 'bar state-2'
+                    }
+
+                    jsjs.onclick = function(){
+                        sunshine.className = 'bar state-3'
+                    }
+                </script>
+            	<div class="works" style="height:597px;">
+            		<div class="big" style="top:0;left:0;"><img src="f1.jpg" alt="" width="597" height="597"></div>
+            		<div class="small" style="top:0;left:645px;"><img src="f2.jpg" alt="" width="293" height="293"></div>
+            		<div class="small" style="top:300px;left:645px;"><img src="f3.jpg" alt="" width="293" height="293"></div>
             	</div>
             </section>
         </main>
